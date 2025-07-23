@@ -213,7 +213,7 @@ scoreForm.addEventListener('submit', function (e) {
                             Không tìm thấy khoảng phù hợp!
                         </div>
                         <div class="small">
-                            Điểm ${diemGocValue} không nằm trong bất kỳ khoảng nào của phương thức <strong>${goc}</strong>
+                            Điểm ${diemGocValue} không nằm trong bất kỳ khoảng nào cho phương thức <strong>${goc}</strong>
                         </div>
                     `);
         }
