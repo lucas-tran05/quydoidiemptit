@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Quy Đổi Điểm Tuyển Sinh</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="main-container">
+                    <div class="text-center mb-4">
+                        <h1 class="title-gradient mb-3">
+                            <i class="fas fa-calculator me-2"></i>
+                            Quy Đổi Điểm Tuyển Sinh
+                        </h1>
+                        <p class="text-muted">Chuyển đổi điểm giữa các phương thức xét tuyển</p>
+                    </div>
+                    <form id="scoreForm">
+                        <div class="mb-4">
+                            <label for="diemGoc" class="form-label fw-semibold">
+                                <i class="fas fa-edit me-2 text-primary"></i>Điểm gốc
+                            </label>
+                            <input type="number" step="0.01" class="form-control form-control-lg" id="diemGoc"
+                                placeholder="Nhập điểm cần chuyển đổi" required>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <label for="ptGoc" class="form-label fw-semibold">
+                                    <i class="fas fa-arrow-right me-2 text-success"></i>Phương thức gốc
+                                </label>
+                                <select class="form-select form-select-lg" id="ptGoc" required>
+                                    <option value="">Chọn phương thức gốc</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <label for="ptDich" class="form-label fw-semibold">
+                                    <i class="fas fa-bullseye me-2 text-warning"></i>Phương thức đích
+                                </label>
+                                <select class="form-select form-select-lg" id="ptDich" required>
+                                    <option value="">Chọn phương thức đích</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg btn-convert">
+                                <i class="fas fa-exchange-alt me-2"></i>
+                                Quy Đổi Điểm
+                            </button>
+                        </div>
+                    </form>
+
+                    <div id="ketQuaSuccess" class="result-card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-check-circle fa-2x"></i>
+                        </div>
+                        <h4 class="text-center mb-3">Kết Quả Quy Đổi</h4>
+                        <div id="ketQuaText" class="text-center fs-5"></div>
+                    </div>
+
+                    <div id="ketQuaError" class="error-card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-exclamation-triangle fa-2x"></i>
+                        </div>
+                        <h4 class="text-center mb-3">Thông Báo</h4>
+                        <div id="errorText" class="text-center fs-5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
