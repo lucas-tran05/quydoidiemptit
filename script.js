@@ -2,8 +2,8 @@
 const BANG_QUY_DOI = [
     {
         "Khoảng": "Khoảng 1",
-        "THPT Bắc": [27.25, 30],
-        "THPT Nam": [27.25, 30],
+        "THPT cơ sở phía Bắc": [27.25, 30],
+        "THPT cơ sở phía Nam": [27.25, 30],
         "Tài năng": [85, 100],
         "SAT": [1450, 1600],
         "ACT": [33, 36],
@@ -15,8 +15,8 @@ const BANG_QUY_DOI = [
     },
     {
         "Khoảng": "Khoảng 2",
-        "THPT Bắc": [25.25, 27.25],
-        "THPT Nam": [25.25, 27.25],
+        "THPT cơ sở phía Bắc": [25.25, 27.25],
+        "THPT cơ sở phía Nam": [25.25, 27.25],
         "Tài năng": [80, 85],
         "SAT": [1350, 1450],
         "ACT": [30, 33],
@@ -28,8 +28,8 @@ const BANG_QUY_DOI = [
     },
     {
         "Khoảng": "Khoảng 3",
-        "THPT Bắc": [23.50, 25.25],
-        "THPT Nam": [23.50, 25.25],
+        "THPT cơ sở phía Bắc": [23.50, 25.25],
+        "THPT cơ sở phía Nam": [23.50, 25.25],
         "Tài năng": [42.50, 80],
         "SAT": [1250, 1350],
         "ACT": [28, 30],
@@ -41,8 +41,8 @@ const BANG_QUY_DOI = [
     },
     {
         "Khoảng": "Khoảng 4",
-        "THPT Bắc": [20.50, 23.50],
-        "THPT Nam": [20.50, 23.50],
+        "THPT cơ sở phía Bắc": [20.50, 23.50],
+        "THPT cơ sở phía Nam": [20.50, 23.50],
         "Tài năng": null,
         "SAT": [1130, 1250],
         "ACT": [25, 28],
@@ -54,8 +54,8 @@ const BANG_QUY_DOI = [
     },
     {
         "Khoảng": "Khoảng 5",
-        "THPT Bắc": [19, 20.50],      // Miền Bắc: 19-20.5
-        "THPT Nam": [16, 20.50],      // Miền Nam: 16-20.5
+        "THPT cơ sở phía Bắc": [19, 20.50],      // Miền Bắc: 19-20.5
+        "THPT cơ sở phía Nam": [16, 20.50],      // Miền Nam: 16-20.5
         "Tài năng": null,
         "SAT": null,
         "ACT": null,
@@ -161,15 +161,25 @@ scoreForm.addEventListener('submit', function (e) {
             const bienDich = khoang[dich];
 
             // Kiểm tra xem cả hai phương thức có dữ liệu trong khoảng này không
-            if (!Array.isArray(bienGoc) || !Array.isArray(bienDich)) {
+            if (!Array.isArray(bienGoc)) {
                 continue;
             }
 
             const [a, b] = bienGoc;
-            const [c, d] = bienDich;
 
-            // Kiểm tra điểm có nằm trong khoảng không
+            // Điểm thuộc khoảng gốc này?
             if (diemGocValue >= a && diemGocValue <= b) {
+                if (!Array.isArray(bienDich)) {
+                    showError(`
+            <div class="mb-2">
+                <i class="fas fa-exclamation-circle me-2"></i>
+                Phương thức đích <strong>${dich}</strong> không có khoảng tương ứng trong ${khoang["Khoảng"]}!
+            </div>
+        `);
+                    return; // Kết thúc luôn
+                }
+
+                const [c, d] = bienDich;
                 const diemQuyDoi = quyDoi(diemGocValue, a, b, c, d);
 
                 resultMessage = `
