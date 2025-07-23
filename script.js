@@ -2,7 +2,8 @@
 const BANG_QUY_DOI = [
     {
         "Khoảng": "Khoảng 1",
-        "THPT": [27.25, 30],
+        "THPT Bắc": [27.25, 30],
+        "THPT Nam": [27.25, 30],
         "Tài năng": [85, 100],
         "SAT": [1450, 1600],
         "ACT": [33, 36],
@@ -14,7 +15,8 @@ const BANG_QUY_DOI = [
     },
     {
         "Khoảng": "Khoảng 2",
-        "THPT": [25.25, 27.25],
+        "THPT Bắc": [25.25, 27.25],
+        "THPT Nam": [25.25, 27.25],
         "Tài năng": [80, 85],
         "SAT": [1350, 1450],
         "ACT": [30, 33],
@@ -26,7 +28,8 @@ const BANG_QUY_DOI = [
     },
     {
         "Khoảng": "Khoảng 3",
-        "THPT": [23.50, 25.25],
+        "THPT Bắc": [23.50, 25.25],
+        "THPT Nam": [23.50, 25.25],
         "Tài năng": [42.50, 80],
         "SAT": [1250, 1350],
         "ACT": [28, 30],
@@ -38,7 +41,8 @@ const BANG_QUY_DOI = [
     },
     {
         "Khoảng": "Khoảng 4",
-        "THPT": [20.50, 23.50],
+        "THPT Bắc": [20.50, 23.50],
+        "THPT Nam": [20.50, 23.50],
         "Tài năng": null,
         "SAT": [1130, 1250],
         "ACT": [25, 28],
@@ -50,7 +54,8 @@ const BANG_QUY_DOI = [
     },
     {
         "Khoảng": "Khoảng 5",
-        "THPT": [16, 20.50],
+        "THPT Bắc": [19, 20.50],      // Miền Bắc: 19-20.5
+        "THPT Nam": [16, 20.50],      // Miền Nam: 16-20.5
         "Tài năng": null,
         "SAT": null,
         "ACT": null,
