@@ -184,10 +184,10 @@ scoreForm.addEventListener('submit', function (e) {
 
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <div>
-                                <i class="fas fa-bullseye me-2"></i>
+                                <i class="fas fa-bullseye me-2 text-danger"></i>
                                 <strong>${dich}:</strong>
                                 </div>
-                                <span class="fw-bold">${diemQuyDoi.toFixed(5)}</span>
+                                <span class="fw-bold">${diemQuyDoi.toFixed(2)}</span>
                             </div>
 
                             <p class="small mb-0">
