@@ -4,66 +4,66 @@ const BANG_QUY_DOI = [
         "Khoảng": "Khoảng 1",
         "THPT cơ sở phía Bắc": [27.25, 30],
         "THPT cơ sở phía Nam": [27.25, 30],
-        "Tài năng": [85, 100],
+        "Xét tuyển tài năng": [85, 100],
         "SAT": [1450, 1600],
         "ACT": [33, 36],
         "HSA": [105, 150],
         "TSA": [75.53, 100],
         "SPT": [25, 30],
         "APT": [959, 1200],
-        "Kết hợp": [28.75, 30]
+        "Xét tuyển kết hợp": [28.75, 30]
     },
     {
         "Khoảng": "Khoảng 2",
         "THPT cơ sở phía Bắc": [25.25, 27.25],
         "THPT cơ sở phía Nam": [25.25, 27.25],
-        "Tài năng": [80, 85],
+        "Xét tuyển tài năng": [80, 85],
         "SAT": [1350, 1450],
         "ACT": [30, 33],
         "HSA": [97, 105],
         "TSA": [69.29, 75.53],
         "SPT": [22.75, 25],
         "APT": [887, 959],
-        "Kết hợp": [27.75, 28.75]
+        "Xét tuyển kết hợp": [27.75, 28.75]
     },
     {
         "Khoảng": "Khoảng 3",
         "THPT cơ sở phía Bắc": [23.50, 25.25],
         "THPT cơ sở phía Nam": [23.50, 25.25],
-        "Tài năng": [42.50, 80],
+        "Xét tuyển tài năng": [42.50, 80],
         "SAT": [1250, 1350],
         "ACT": [28, 30],
         "HSA": [91, 97],
         "TSA": [65.42, 69.29],
         "SPT": [20.5, 22.75],
         "APT": [816, 887],
-        "Kết hợp": [26.50, 27.75]
+        "Xét tuyển kết hợp": [26.50, 27.75]
     },
     {
         "Khoảng": "Khoảng 4",
         "THPT cơ sở phía Bắc": [20.50, 23.50],
         "THPT cơ sở phía Nam": [20.50, 23.50],
-        "Tài năng": null,
+        "Xét tuyển tài năng": null,
         "SAT": [1130, 1250],
         "ACT": [25, 28],
         "HSA": [82, 91],
         "TSA": [59.5, 65.42],
         "SPT": [18.25, 20.5],
         "APT": [702, 816],
-        "Kết hợp": [24.50, 26.50]
+        "Xét tuyển kết hợp": [24.50, 26.50]
     },
     {
         "Khoảng": "Khoảng 5",
         "THPT cơ sở phía Bắc": [19, 20.50],      // Miền Bắc: 19-20.5
         "THPT cơ sở phía Nam": [16, 20.50],      // Miền Nam: 16-20.5
-        "Tài năng": null,
+        "Xét tuyển tài năng": null,
         "SAT": null,
         "ACT": null,
         "HSA": [75, 82],
         "TSA": [50, 59.5],
         "SPT": [15, 18.25],
         "APT": [600, 702],
-        "Kết hợp": [22.50, 24.50]
+        "Xét tuyển kết hợp": [22.50, 24.50]
     }
 ];
 
