@@ -50,7 +50,7 @@ const BANG_QUY_DOI = [
     },
     {
         "Khoảng": "Khoảng 5",
-        "THPT": [19, 20.50],
+        "THPT": [16, 20.50],
         "Tài năng": null,
         "SAT": null,
         "ACT": null,
