@@ -168,33 +168,33 @@ scoreForm.addEventListener('submit', function (e) {
                 const diemQuyDoi = quyDoi(diemGocValue, a, b, c, d);
 
                 resultMessage = `
-                            <div class="border rounded-3 p-3 mb-4">
-  <h5 class="mb-3">
-    <i class="fas fa-layer-group me-2 text-primary"></i>
-    <strong>${khoang["Khoảng"]}</strong>
-  </h5>
+                            <div class="border rounded-3 p-4 mb-4">
+                            <h5 class="mb-3">
+                                <i class="fas fa-layer-group me-2"></i>
+                                <strong>${khoang["Khoảng"]}</strong>
+                            </h5>
 
-  <div class="d-flex justify-content-between align-items-center mb-2">
-    <div>
-      <i class="fas fa-arrow-right me-2 text-success"></i>
-      <strong>${goc}:</strong>
-    </div>
-    <span class="fw-bold">${diemGocValue}</span>
-  </div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div>
+                                <i class="fas fa-arrow-right me-2"></i>
+                                <strong>${goc}:</strong>
+                                </div>
+                                <span class="fw-bold">${diemGocValue}</span>
+                            </div>
 
-  <div class="d-flex justify-content-between align-items-center mb-2">
-    <div>
-      <i class="fas fa-bullseye me-2 text-danger"></i>
-      <strong>${dich}:</strong>
-    </div>
-    <span class="fw-bold">${diemQuyDoi.toFixed(5)}</span>
-  </div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <div>
+                                <i class="fas fa-bullseye me-2"></i>
+                                <strong>${dich}:</strong>
+                                </div>
+                                <span class="fw-bold">${diemQuyDoi.toFixed(5)}</span>
+                            </div>
 
-  <p class="text-muted small mb-0">
-    <i class="fas fa-ruler-combined me-2"></i>
-    Khoảng gốc: [${a} - ${b}] → Khoảng đích: [${c} - ${d}]
-  </p>
-</div>
+                            <p class="small mb-0">
+                                <i class="fas fa-ruler-combined me-2"></i>
+                                Khoảng gốc: [${a} - ${b}] → Khoảng đích: [${c} - ${d}]
+                            </p>
+                            </div>
 
 
                         `;
