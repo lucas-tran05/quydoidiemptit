@@ -187,7 +187,7 @@ scoreForm.addEventListener('submit', function (e) {
       <i class="fas fa-bullseye me-2 text-danger"></i>
       <strong>${dich}:</strong>
     </div>
-    <span class="fw-bold">${diemQuyDoi.toFixed(5)}</span>
+    <span class="fw-bold">${diemQuyDoi.toFixed(2)}</span>
   </div>
 
   <p class="text-muted small mb-0">
