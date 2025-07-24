@@ -192,7 +192,7 @@ scoreForm.addEventListener('submit', function (e) {
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <div>
                                 <i class="fas fa-arrow-right me-2"></i>
-                                <strong>${goc}:</strong>
+                                <strong class="small">${goc}:</strong>
                                 </div>
                                 <span class="fw-bold">${diemGocValue}</span>
                             </div>
@@ -200,14 +200,13 @@ scoreForm.addEventListener('submit', function (e) {
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <div>
                                 <i class="fas fa-bullseye me-2"></i>
-                                <strong>${dich}:</strong>
+                                <strong class="small">${dich}:</strong>
                                 </div>
                                 <span class="fw-bold">${diemQuyDoi.toFixed(2)}</span>
                             </div>
 
-                            <p class="small mb-0">
-                                <i class="fas fa-ruler-combined me-2"></i>
-                                Khoảng gốc: [${a} - ${b}] → Khoảng đích: [${c} - ${d}]
+                            <p class="small fst-italic mb-0">
+                                Biên gốc: [${a} - ${b}] → Biên đích: [${c} - ${d}]
                             </p>
                             </div>
 
