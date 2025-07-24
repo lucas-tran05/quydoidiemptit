@@ -2,7 +2,7 @@ body {
     background: linear-gradient(135deg, #ffffff 0%, #ffecec 100%);
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
 
 .main-container {
@@ -45,9 +45,9 @@ body {
 }
 
 .result-card {
-    background: linear-gradient(135deg, #cb4a41 0%, #be3030 100%);
+    background: linear-gradient(135deg, #ffe6e6 0%, #ffc1c1 100%);
     border-radius: 15px;
-    color: white;
+    color: #bc2626;
     padding: 25px;
     margin-top: 30px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);

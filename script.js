@@ -2,68 +2,68 @@
 const BANG_QUY_DOI = [
     {
         "Khoảng": "Khoảng 1",
-        "THPT cơ sở phía Bắc": [27.25, 30],
-        "THPT cơ sở phía Nam": [27.25, 30],
-        "Xét tuyển tài năng": [85, 100],
-        "SAT": [1450, 1600],
-        "ACT": [33, 36],
-        "HSA": [105, 150],
-        "TSA": [75.53, 100],
-        "SPT": [25, 30],
-        "APT": [959, 1200],
-        "Xét tuyển kết hợp": [28.75, 30]
+        "THPT cơ sở phía Bắc (Thang 30)": [27.25, 30],
+        "THPT cơ sở phía Nam (Thang 30)": [27.25, 30],
+        "Xét tuyển tài năng (Thang 100)": [85, 100],
+        "SAT (Thang 1600)": [1450, 1600],
+        "ACT (Thang 36)": [33, 36],
+        "HSA (Thang 150)": [105, 150],
+        "TSA (Thang 100)": [75.53, 100],
+        "SPT (Thang 1200)": [25, 30],
+        "APT (Thang 1200)": [959, 1200],
+        "Xét tuyển kết hợp (Thang 30)": [28.75, 30]
     },
     {
         "Khoảng": "Khoảng 2",
-        "THPT cơ sở phía Bắc": [25.25, 27.25],
-        "THPT cơ sở phía Nam": [25.25, 27.25],
-        "Xét tuyển tài năng": [80, 85],
-        "SAT": [1350, 1450],
-        "ACT": [30, 33],
-        "HSA": [97, 105],
-        "TSA": [69.29, 75.53],
-        "SPT": [22.75, 25],
-        "APT": [887, 959],
-        "Xét tuyển kết hợp": [27.75, 28.75]
+        "THPT cơ sở phía Bắc (Thang 30)": [25.25, 27.25],
+        "THPT cơ sở phía Nam (Thang 30)": [25.25, 27.25],
+        "Xét tuyển tài năng (Thang 100)": [80, 85],
+        "SAT (Thang 1600)": [1350, 1450],
+        "ACT (Thang 36)": [30, 33],
+        "HSA (Thang 150)": [97, 105],
+        "TSA (Thang 100)": [69.29, 75.53],
+        "SPT (Thang 30)": [22.75, 25],
+        "APT (Thang 1200)": [887, 959],
+        "Xét tuyển kết hợp (Thang 30)": [27.75, 28.75]
     },
     {
         "Khoảng": "Khoảng 3",
-        "THPT cơ sở phía Bắc": [23.50, 25.25],
-        "THPT cơ sở phía Nam": [23.50, 25.25],
-        "Xét tuyển tài năng": [42.50, 80],
-        "SAT": [1250, 1350],
-        "ACT": [28, 30],
-        "HSA": [91, 97],
-        "TSA": [65.42, 69.29],
-        "SPT": [20.5, 22.75],
-        "APT": [816, 887],
-        "Xét tuyển kết hợp": [26.50, 27.75]
+        "THPT cơ sở phía Bắc (Thang 30)": [23.50, 25.25],
+        "THPT cơ sở phía Nam (Thang 30)": [23.50, 25.25],
+        "Xét tuyển tài năng (Thang 100)": [42.50, 80],
+        "SAT (Thang 1600)": [1250, 1350],
+        "ACT (Thang 36)": [28, 30],
+        "HSA (Thang 150)": [91, 97],
+        "TSA (Thang 100)": [65.42, 69.29],
+        "SPT (Thang 30)": [20.5, 22.75],
+        "APT (Thang 1200)": [816, 887],
+        "Xét tuyển kết hợp (Thang 30)": [26.50, 27.75]
     },
     {
         "Khoảng": "Khoảng 4",
-        "THPT cơ sở phía Bắc": [20.50, 23.50],
-        "THPT cơ sở phía Nam": [20.50, 23.50],
-        "Xét tuyển tài năng": null,
-        "SAT": [1130, 1250],
-        "ACT": [25, 28],
-        "HSA": [82, 91],
-        "TSA": [59.5, 65.42],
-        "SPT": [18.25, 20.5],
-        "APT": [702, 816],
-        "Xét tuyển kết hợp": [24.50, 26.50]
+        "THPT cơ sở phía Bắc (Thang 30)": [20.50, 23.50],
+        "THPT cơ sở phía Nam (Thang 30)": [20.50, 23.50],
+        "Xét tuyển tài năng (Thang 100)": null,
+        "SAT (Thang 1600)": [1130, 1250],
+        "ACT (Thang 36)": [25, 28],
+        "HSA (Thang 150)": [82, 91],
+        "TSA (Thang 100)": [59.5, 65.42],
+        "SPT (Thang 30)": [18.25, 20.5],
+        "APT (Thang 1200)": [702, 816],
+        "Xét tuyển kết hợp (Thang 30)": [24.50, 26.50]
     },
     {
         "Khoảng": "Khoảng 5",
-        "THPT cơ sở phía Bắc": [19, 20.50],      // Miền Bắc: 19-20.5
-        "THPT cơ sở phía Nam": [16, 20.50],      // Miền Nam: 16-20.5
-        "Xét tuyển tài năng": null,
-        "SAT": null,
-        "ACT": null,
-        "HSA": [75, 82],
-        "TSA": [50, 59.5],
-        "SPT": [15, 18.25],
-        "APT": [600, 702],
-        "Xét tuyển kết hợp": [22.50, 24.50]
+        "THPT cơ sở phía Bắc (Thang 30)": [19, 20.50],      // Miền Bắc: 19-20.5
+        "THPT cơ sở phía Nam (Thang 30)": [16, 20.50],      // Miền Nam: 16-20.5
+        "Xét tuyển tài năng (Thang 100)": null,
+        "SAT (Thang 1600)": null,
+        "ACT (Thang 36)": null,
+        "HSA (Thang 150)": [75, 82],
+        "TSA (Thang 100)": [50, 59.5],
+        "SPT (Thang 30)": [15, 18.25],
+        "APT (Thang 1200)": [600, 702],
+        "Xét tuyển kết hợp (Thang 30)": [22.50, 24.50]
     }
 ];
 
@@ -189,22 +189,23 @@ scoreForm.addEventListener('submit', function (e) {
                                 <strong>${khoang["Khoảng"]}</strong>
                             </h5>
 
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <div>
-                                <i class="fas fa-arrow-right me-2"></i>
+                            <div class="row mb-2 align-items-center">
+                            <div class="col-12 col-sm-9 d-flex justify-content-center justify-content-sm-start align-items-center mb-1 mb-sm-0">
                                 <strong class="small">${goc}:</strong>
-                                </div>
-                                <span class="fw-bold">${diemGocValue}</span>
+                            </div>
+                            <div class="col-12 col-sm-3 text-center text-sm-end">
+                                <span class="fw-bold fs-4">${diemGocValue}</span>
+                            </div>
                             </div>
 
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <div>
-                                <i class="fas fa-bullseye me-2"></i>
+                            <div class="row mb-2 align-items-center">
+                            <div class="col-12 col-sm-9 d-flex justify-content-center justify-content-sm-start align-items-center mb-1 mb-sm-0">
                                 <strong class="small">${dich}:</strong>
-                                </div>
-                                <span class="fw-bold">${diemQuyDoi.toFixed(2)}</span>
                             </div>
-
+                            <div class="col-12 col-sm-3 text-center text-sm-end">
+                                <span class="fw-bold fs-4">${diemQuyDoi.toFixed(2)}</span>
+                            </div>
+                            </div>
                             <p class="small fst-italic mb-0">
                                 Biên gốc: [${a} - ${b}] → Biên đích: [${c} - ${d}]
                             </p>
